@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irene's Embedded Dashboard</title>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+</head>
+<body>
+  <h1>Irene's Dashboard</h1>
+  <button id="exportPDF">exportPDF</button>
+  <button id="exportPowerPoint">exportPowerPoint</button>
+  <h2>filter go here</h2>
+  <input type="number" placeholder=" Min value" id="minValue" />
+  <input type="number" placeholder=" Max value" id="maxValue" />
+  <button id="FilterButton"> Filter!</button>
+  <div id="vizContainer"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
